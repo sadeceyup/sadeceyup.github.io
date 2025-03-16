@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyüpcan Yıldız | Bilişim Güvenliği Uzmanı</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <div class="logo animate-fade-in">Eyüpcan Yıldız</div>
+            <ul class="nav-links animate-fade-in">
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#egitim">Eğitim</a></li>
+                <li><a href="#yetenekler">Yetenekler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="dark-mode-toggle" class="cta-button animate-fade-in">Koyu Mod</button>
+            </div>
+            <div class="hamburger">☰</div>
+        </nav>
+        <div class="hero-content">
+            <h1 class="animate-slide-in">Merhaba, Ben Eyüpcan Yıldız</h1>
+            <p class="animate-slide-in-delayed">Bilişim Güvenliği ve Teknolojisi Öğrencisi | Kod Tutkunu</p>
+            <a href="#iletisim" class="cta-button animate-slide-in-delayed-more">Benimle İletişime Geç</a>
+        </div>
+    </div>
+
+    <section id="hakkimda" class="section animate-section">
+        <h2>Hakkımda</h2>
+        <div class="content">
+            <p>Ben Eyüpcan, 21 yaşında bir teknoloji meraklısıyım. İstanbul Atlas Üniversitesi'nde Bilişim Güvenliği ve Teknolojisi okuyorum. Kod yazmayı, sistemleri korumayı ve dijital dünyada yenilikler yapmayı seviyorum.</p>
+        </div>
+    </section>
+
+    <section id="egitim" class="section animate-section">
+        <h2>Eğitim</h2>
+        <div class="content">
+            <div class="card">
+                <h3>İstanbul Atlas Üniversitesi</h3>
+                <p>Bilişim Güvenliği ve Teknolojisi<br>(2024 - Devam Ediyor)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="yetenekler" class="section animate-section">
+        <h2>Yetenekler</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <span>HTML</span>
+                <div class="progress-bar"><div class="progress animate-progress" style="width: 60%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="progress-bar"><div class="progress animate-progress" style="width: 65%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="progress-bar"><div class="progress animate-progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress-bar"><div class="progress animate-progress" style="width: 70%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="section animate-section">
+        <h2>İletişim</h2>
+        <div class="content">
+            <p>E-posta: <a href="mailto:eyupcanyildiz57@gmail.com">eyupcanyildiz57@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/eyüpcan-yıldız-552b60356/" target="_blank">Eyüpcan Yıldız</a></p>
+            <form class="contact-form" id="contact-form">
+                <input type="text" name="name" placeholder="Adınız" required>
+                <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+                <textarea name="message" placeholder="Mesajınız" required></textarea>
+                <button type="submit" class="cta-button">Gönder</button>
+            </form>
+            <div id="success-message" class="success-message" style="display: none;">
+                <h3>Teşekkürler, <span id="success-name"></span>!</h3>
+                <p>Mesajın bana ulaştı. En kısa sürede sana geri döneceğim!</p>
+                <a href="#iletisim" class="cta-button">Ana Sayfaya Dön</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Eyüpcan Yıldız. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
